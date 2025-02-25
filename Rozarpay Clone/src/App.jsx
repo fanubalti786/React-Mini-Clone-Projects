@@ -13,25 +13,22 @@ export default function App() {
           </li>
         </ul>
       </div>
-      <li className="text-[15px] font-bold text-gray-600 cursor-pointer hover:underline hover: text-gray-300">
+      <li className="text-[15px] font-bold cursor-pointer hover:underline hover:text-blue-950">
         Payments
       </li>
-      <li className="text-[15px] font-bold text-gray-600 cursor-pointer hover:underline hover: text-gray-300">
+      <li className="text-[15px] font-bold cursor-pointer hover:underline hover:text-blue-950">
         Banking+
       </li>
-      <li className="text-[15px] font-bold text-gray-600 cursor-pointer hover:underline hover: text-gray-300">
+      <li className="text-[15px] font-bold cursor-pointer hover:underline hover:text-blue-950">
         Payroll
       </li>
-      <li className="text-[15px] font-bold text-gray-600 cursor-pointer hover:underline hover: text-gray-300">
+      <li className="text-[15px] font-bold cursor-pointer hover:underline hover:text-blue-950">
         Engage
       </li>
-      <li className="text-[15px] font-bold text-gray-600 cursor-pointer hover:underline hover: text-gray-300">
+      <li className="text-[15px] font-bold cursor-pointer hover:underline hover:text-blue-950">
         Partners
       </li>
-      <li className="text-[15px] font-bold text-gray-600 cursor-pointer hover:underline hover: text-gray-300">
-        Resources
-      </li>
-      <li className="text-[15px] font-bold text-gray-600 cursor-pointer hover:underline hover: text-gray-300">
+      <li className="text-[15px] font-bold cursor-pointer hover:underline hover:text-blue-950">
         Pricing
       </li>
     </div>

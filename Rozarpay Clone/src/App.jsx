@@ -7,39 +7,41 @@ export default function App() {
   <nav className="flex max-w-[1200px] w-full justify-between">
     <div className="flex items-center list-none p-1 gap-5">
       <div className="items-center mb-2 mr-10 font-bold">
-        <ul className="list-none p-1">
+        <ul className="list-none p-1 font-semibold">
           <li className="text-3xl font-extrabold text-[#0B72E7] cursor-pointer">
             Razorpay
           </li>
         </ul>
       </div>
-      <li className="text-[15px] font-bold cursor-pointer hover:underline hover:text-blue-950">
+      <li className="text-[15px] font-bold cursor-pointer hover:underline underline-offset-8 hover:text-blue-950">
         Payments
       </li>
-      <li className="text-[15px] font-bold cursor-pointer hover:underline hover:text-blue-950">
+      <li className="text-[15px] font-bold cursor-pointer hover:underline underline-offset-8 hover:text-blue-950">
         Banking+
       </li>
-      <li className="text-[15px] font-bold cursor-pointer hover:underline hover:text-blue-950">
+      <li className="text-[15px] font-bold cursor-pointer hover:underline underline-offset-8 hover:text-blue-950">
         Payroll
       </li>
-      <li className="text-[15px] font-bold cursor-pointer hover:underline hover:text-blue-950">
+      <li className="text-[15px] font-bold cursor-pointer hover:underline underline-offset-8 hover:text-blue-950">
         Engage
       </li>
-      <li className="text-[15px] font-bold cursor-pointer hover:underline hover:text-blue-950">
+      <li className="text-[15px] font-bold cursor-pointer hover:underline underline-offset-8 hover:text-blue-950">
         Partners
       </li>
-      <li className="text-[15px] font-bold cursor-pointer hover:underline hover:text-blue-950">
+      <li className="text-[15px] font-bold cursor-pointer hover:underline underline-offset-8 hover:text-blue-950">
         Pricing
       </li>
     </div>
     <div className="flex items-center list-none p-1 gap-5">
-      <li className="size-10 p-1 mt-3 cursor-pointer">
-        <img
+      <li className="size-10 p-1 mt-3 cursor-pointer flex gap-2 mr-3">
+        <img className="object-cover"
           src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg"
           alt="India Flag"
+          
         />
-      </li>
       <span className="cursor-pointer">⌃</span>
+
+      </li>
       <FaHeadphonesSimple size={22} className="text-gray-600 cursor-pointer" />
       <li className="border border-gray-300 rounded-lg cursor-pointer">
         <button className="p-1 px-5 text-[14px] font-medium text-[#0B72E7] cursor-pointer">
@@ -56,7 +58,7 @@ export default function App() {
 
   <div className="flex w-full justify-center relative">
     <img
-      className="w-full max-w-[1200px]"
+      className="w-full max-w-[1200px] object-cover"
       src="https://framerusercontent.com/images/kuxCWrCpVyLY8wQnUqqRsmDMmE.png?scale-down-to=1024"
       alt=""
     />

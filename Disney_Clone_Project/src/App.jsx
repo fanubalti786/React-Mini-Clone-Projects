@@ -1,10 +1,14 @@
 import React from "react";
-import Header from "./components/Header";
+import Header1 from "./components/Header1";
+import Slider from "./components/Slider";
+import MovieSlider from "./components/MovieSlider";
 
 export default function App() {
   return (
-    <div className=" h-screen bg-gray-500 px-4 ">
-      <Header/>
+    <div className='bg-black/80 '>
+      <Header1/>
+      <Slider/>
+      {/* <MovieSlider/> */}
     </div>
   );
 }

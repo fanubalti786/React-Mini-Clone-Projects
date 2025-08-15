@@ -145,16 +145,16 @@ export default function Slider() {
     <div className="relative min-w-[990px]">
       <HiChevronLeft
         onClick={sliderLeft}
-        className="hidden [@media(min-width:400px)]:block 
+        className="hidden [@media(min-width:300px)]:block 
     text-[30px] absolute mx-4 mt-[167px] cursor-pointer"
       />
       <HiChevronRight
         onClick={sliderRight}
-        className=" hidden [@media(min-width:400px)]:block sm:block 
+        className=" hidden [@media(min-width:300px)]:block sm:block 
     text-[30px] absolute mr-4 mt-[167px] cursor-pointer  right-0"
       />
       <div
-        className="flex overflow-x-auto w-full 
+        className="flex overflow-x-auto w-full
     py-4 px-16 pl-6 scrollbar-hide justify-between scroll-smooth"
         ref={elementRef}
       >
@@ -164,7 +164,7 @@ export default function Slider() {
               key={index}
               src={item}
               alt=""
-              className={`min-w-full h-[310px] object-left-top object-cover m-5
+              className={`min-w-full shrink h-[310px] object-left-top object-cover m-5
         rounded-md hover:border-[4px] border-gray-400 cursor-pointer transition-all
         duration-100 ease-in-out 
         ${counter == 1 ? "ml-[43px]" : ""} 

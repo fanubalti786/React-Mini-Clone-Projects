@@ -155,7 +155,7 @@ export default function Slider() {
       />
       <div
         className="flex overflow-x-auto w-full
-    py-4 px-16 pl-6 scrollbar-hide justify-between scroll-smooth"
+    py-5 px-16 pl-6 scrollbar-hide justify-between scroll-smooth"
         ref={elementRef}
       >
         {imgurl.map((item, index) => {
@@ -167,9 +167,9 @@ export default function Slider() {
               className={`min-w-full shrink h-[310px] object-left-top object-cover m-5
         rounded-md hover:border-[4px] border-gray-400 cursor-pointer transition-all
         duration-100 ease-in-out 
-        ${counter == 1 ? "ml-[43px]" : ""} 
-        ${counter == 2 ? "ml-[52px]" : ""}
-        ${counter == 3 ? "ml-[56px]" : ""}
+        ${counter == 1 ? "ml-[52px]" : ""} 
+        ${counter == 2 ? "ml-[62px]" : ""}
+        ${counter == 3 ? "ml-[67px]" : ""}
         `}
             />
           );

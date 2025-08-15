@@ -46,13 +46,17 @@ export default function ProductionHouseList() {
     },
   ];
   return (
-    <div className="grid basis-full lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2  lg:flex-nowrap relative min-w-[990px] gap-2 md:gap-5 p-2  px-10 ">
+    <div className="grid xs:grid-cols-2 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3  lg:flex-nowrap 
+     sm:min-w-[770] min-w-[990px] gap-2 md:gap-5 p-4 px-11 mb-4">
       {list.map((item, index) => {
         return (
-          <div className="border-1 border-gray-200 rounded-lg hover:scale-110
-          transition-all duration-300 ease-in-out cursor-pointer">
-            <img src={item.image} alt="" className="" />
-            <video src={item.video} autoPlay loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300"/>
+          <div className="relative rounded-lg hover:scale-110
+          transition-all duration-300 ease-in-out cursor-pointer
+          shadow-xl shadow-gray-800">
+            <img src={item.image} alt="" className="border-1 border-gray-400 rounded-lg " />
+            <video src={item.video} autoPlay loop muted playsInline
+             className=" absolute top-0
+            border-1 border-gray-400 rounded-lg opacity-0 hover:opacity-50 "/>
           </div>
         );
       })}

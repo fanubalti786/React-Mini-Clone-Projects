@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
-import Button from "../button";
+import Button from "../Button";
 
 export default function HeroSection({toggle}) {
   return (

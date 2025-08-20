@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from "./components/Header/Header";
+import Header from "./components/header/Header";
 import HeroSection from "./components/heroSection/HeroSection";
 import Expert from "./components/expertSection/Expert";
 import EmailCapture from "./components/emailCapture/EmailCapture";

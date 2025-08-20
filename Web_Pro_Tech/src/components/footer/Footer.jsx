@@ -6,7 +6,7 @@ import {
   SlSocialLinkedin,
   SlSocialTwitter,
 } from "react-icons/sl";
-import FooterItems from "../footerItems";
+import FooterItems from "../FooterItems";
 export default function Footer() {
   const arr = [
     {

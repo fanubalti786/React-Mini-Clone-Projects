@@ -4,7 +4,7 @@ import HeroSection from "./components/heroSection/HeroSection";
 import Expert from "./components/expertSection/Expert";
 import EmailCapture from "./components/emailCapture/EmailCapture";
 import Plans from "./components/plans/Plans";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/footer/Footer";
 
 export default function App() {
     const [toggle, setToggle] = useState(false);
